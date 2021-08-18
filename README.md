@@ -1,4 +1,4 @@
-# serverless-dynamodb-seed
+# serverless-v3-dynamodb-seed
 
 This is a simple plugin for [Serverless Framework](https://serverless.com/) to perform seeds on dynamodb databases based on serverless.yml.
 
