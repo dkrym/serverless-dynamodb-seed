@@ -5,14 +5,14 @@ This is a simple plugin for [Serverless Framework](https://serverless.com/) to p
 ## Install
 
 ```bash
-$ npm install serverless-dynamodb-seed --save-dev
+$ npm install serverless-v3-dynamodb-seed --save-dev
 ```
 
 Add the plugin to your `serverless.yml` file:
 
 ```yaml
 plugins:
-  - serverless-dynamodb-seed
+  - serverless-v3-dynamodb-seed
 ```
 
 ## Configure
@@ -87,3 +87,6 @@ sls dynamodb:seed --stage dev --profile my-aws-profile
 ## Warning
 
 WATCH OUT! THIS PLUGIN MAY OVERWRITE DATA ON YOUR DYNAMO DB TABLE!
+
+## Original plugin
+https://github.com/arielschvartz/serverless-dynamodb-seed
