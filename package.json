@@ -1,18 +1,18 @@
 {
-  "name": "serverless-dynamodb-seed",
-  "version": "0.3.0",
+  "name": "serverless-v3-dynamodb-seed",
+  "version": "0.3.1",
   "description": "Serverless Plugin for performing seeds on dynamodb",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arielschvartz/serverless-dynamodb-seed.git"
+    "url": "git+https://github.com/dkrym/serverless-dynamodb-seed.git"
   },
-  "author": "Ariel Schvartz",
+  "author": "David Krym / Ariel Schvartz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/arielschvartz/serverless-dynamodb-seed/issues"
+    "url": "https://github.com/dkrym/serverless-dynamodb-seed/issues"
   },
-  "homepage": "https://github.com/arielschvartz/serverless-dynamodb-seed#readme",
+  "homepage": "https://github.com/dkrym/serverless-dynamodb-seed#readme",
   "dependencies": {
     "bluebird": "^3.7.2"
   }
